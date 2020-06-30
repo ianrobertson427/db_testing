@@ -1,3 +1,6 @@
 class ApplicationController < ActionController::Base
-  # protect_from_forgery with: :null_session
+  def first_contact
+  @contacts = Contact.first
+  render 'contactfiles.json.rb'
+  end
 end
