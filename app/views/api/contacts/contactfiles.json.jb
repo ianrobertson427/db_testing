@@ -1,1 +1,1 @@
-{first_name: @contacts}
+{first_name: @contacts.all}
